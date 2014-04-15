@@ -5,10 +5,17 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprPlayer</sprite>
+    <sprite>sprites\sprJump</sprite>
+    <sprite>sprites\sprBlock</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
+    <scripts name="Entities">
+      <script>scripts\scrVK.gml</script>
+    </scripts>
     <scripts name="Controllers">
       <script>scripts\scrWorld.gml</script>
     </scripts>
@@ -19,6 +26,10 @@
     </objects>
     <objects name="Controllers">
       <object>objects\objWorld</object>
+      <object>objects\objJump</object>
+    </objects>
+    <objects name="World">
+      <object>objects\objBlock</object>
     </objects>
   </objects>
   <rooms name="rooms">
