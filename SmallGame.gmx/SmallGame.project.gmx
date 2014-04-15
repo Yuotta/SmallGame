@@ -8,6 +8,22 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Controllers">
+      <script>scripts\scrWorld.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <objects name="Entities">
+      <object>objects\objPlayer</object>
+    </objects>
+    <objects name="Controllers">
+      <object>objects\objWorld</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
